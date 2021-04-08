@@ -22,7 +22,7 @@ cd planilhas
 
 for ((i=0; i<${tam_vetor}; i++))
 do
-        curl -l   https://api.github.com/repos/"${vetor[$i]}"/pulls?state=closed | grep 'login' | sed 's/"login"://g' | sed 's/[", ]//g' | sort | uniq -c |sort -nr | awk '{print $2 ";"$1}' >  "${vetor_name[$i]}".csv
+        curl -l   https://api.github.com/repos/"${vetor[$i]}"/pulls?state=closed | grep 'login' | sed 's/"login"://g' | sed 's/[", ]//g' | sort | uniq -c |sort -nr | awk '{print $2 ","$1}' >  "${vetor_name[$i]}".csv
 done
 
 read -p "Press any key to resume ..."
