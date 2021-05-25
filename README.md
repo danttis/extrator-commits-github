@@ -1,8 +1,8 @@
-# Trabalho para diciplina de Laboratório de programação
-O script consiste em filtrar os logins dos autores de cada pull request.
+# Extraction of commits
+The script consists of filtering the logins of the authors of each pull request.
 
-O script está comentado, mostrando que não a dificudades no seu uso.
+The script is commented, showing that there are no difficulties in its use.
 
-Esse script foi projetado para rodar no núcleo linux
+This script was designed to run on the Linux kernel
 
-O script "extrator_automatico.sh" deve ser usado sem a pasta "planilhas", pois o script gera ela automaticamente;
+The "extrator_automatico.sh" script must be used without the "spreadsheets" folder, as the script generates it automatically;
